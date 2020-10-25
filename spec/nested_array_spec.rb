@@ -1,4 +1,4 @@
-require 'spec_helper'
+learnrequire 'spec_helper'
 
 describe 'When a learning to build nested arrays,' do
   it 'the assembled_matrix method returns a nested array made from two constants, CONVENTIONAL_PRODUCE and ORGANIC_PRODUCE' do
