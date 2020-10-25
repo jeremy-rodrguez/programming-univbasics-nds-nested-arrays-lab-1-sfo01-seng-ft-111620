@@ -28,13 +28,17 @@ def assembled_matrix
 end
 
 def sorted_matrix
+  CONVENTIONAL_PRODUCE = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
+  ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+  
+  
   sorted_matrix = [
-  ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
-  ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+  CONVENTIONAL_PRODUCE,
+  ORGANIC_PRODUCE
   ]
   
-sorted_matrix[0] = ORGANIC_PRODUCE.sort
-sorted_matrix[1] = CONVENTIONAL_PRODUCE.sort
+sorted_matrix[0] = CONVENTIONAL_PRODUCE.sort
+sorted_matrix[1] = ORGANIC_PRODUCE.sort
   
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
