@@ -32,7 +32,7 @@ def sorted_matrix
   ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   
   
-  sorted_matrix = [
+  produce = [
   CONVENTIONAL_PRODUCE,
   ORGANIC_PRODUCE
   ]
