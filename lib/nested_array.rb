@@ -33,8 +33,8 @@ def sorted_matrix
   CONVENTIONAL_PRODUCE
   ]
   
-  ORGANIC_PRODUCE.sort
-  CONVENTIONAL_PRODUCE.sort
+  p ORGANIC_PRODUCE.sort
+  p CONVENTIONAL_PRODUCE.sort
   
   # Using Array literal syntax only, build another nested array that 
   # uses the arrays of conventional and organic produce as before.
