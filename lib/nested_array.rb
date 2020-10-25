@@ -28,23 +28,7 @@ def assembled_matrix
 end
 
 def sorted_matrix
-  ORGANIC_PRODUCE = [
-  "Strawberries",
-  "Potatoes",
-  "Grapes",
-  "Avocadoes",
-  "Asparagus"
-]
-
-CONVENTIONAL_PRODUCE = [
-  "Grapefruit",
-  "Pineapple",
-  "Oranges",
-  "Watermelon",
-  "Eggplant"
-]
-
-nested_array = [
+  nested_array = [
   ORGANIC_PRODUCE,
   CONVENTIONAL_PRODUCE
   ]
